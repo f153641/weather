@@ -25,10 +25,10 @@ const getTodayWeather = (data, locationIndex) => {
 
     document.querySelector('.todayWeather').innerHTML = `
         <div class="today_img"><img src=${todayWxImg} alt=""></div>
-            <div class="today_left">
-                <p class="info_item">${date} (${weekArr[weekIndex]})</p>
-                <p class="info_item">${wx}</p>
-            </div>
+                <div class="today_left">
+                    <p class="info_item">${date} (${weekArr[weekIndex]})</p>
+                    <p class="info_item">${wx}</p>
+                </div>  
             <div class="today_right">
                 <p class="info_item">氣溫：${mint}°C ~ ${maxt}°C</p>
                 <p class="info_item">最高風速：${ws + 'm/s'}</p>
