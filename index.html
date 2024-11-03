@@ -6,31 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>一週天氣預報</title>
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
     <h2>一週天氣預報</h2>
-    <div class="wrapper container ">
+    <div class="container">
 
         <select name="" id="" class="info_item"></select>
 
         <!-- 本日天氣 -->
-        <div class="todayWeather row row-cols-lg-3 row-cols-xs-1">
-            <!-- <li class="todayWeather">
-                <div class="today_img"><img src="./image/1.png" alt=""></div>
+        <div class="todayWeather container">
+            <!-- <div class="pic"><img src=${todayWxImg} alt=""></div>
+            <div class="todayinfo">
                 <div class="today_left">
-                    <p class="info_item">日期</p>
-                    <p class="info_item">天氣</p>
+                    <p class="info_item">${date} (${weekArr[weekIndex]})</p>
+                    <p class="info_item">${wx}</p>
                 </div>
                 <div class="today_right">
-                    <p class="info_item">氣溫：</p>
-                    <p class="info_item">降雨機率：</p>
-                    <p class="info_item">最高風速：</p>
-                    <p class="info_item">紫外線指數：</p>
-                </div> -->
+                    <p class="info_item">氣溫：${mint}°C ~ ${maxt}°C</p>
+                    <p class="info_item">最高風速：${ws + 'm/s'}</p>
+                    <p class="info_item">紫外線指數：${uvi}</p>
+                </div>
+            </div>  -->
         </div>
-        <ul class="weekWeather row row-cols-lg-6 row-cols-md-3 row-cols-xs-1">
+        <ul class="weekWeather">
             <!-- 一週天氣 -->
             <!-- <li>
                 <img class="info_item" src="./image/1.png" alt="">
